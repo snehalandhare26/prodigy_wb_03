@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0b0b0b;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f1efef;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(5, 5, 5, 0.959); /* Optional: Add a semi-transparent background to improve text readability */
+    padding: 20px; /* Optional: Add some padding for better spacing */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #dfdbdb;
+    border: 2px solid #c80da9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cell.X {
+    color: red;
+}
+
+.cell.O {
+    color: rgb(9, 9, 9);
+}
+
+.cell.winner {
+    background-color: rgb(25, 161, 159);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#status {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#nameForm {
+    margin-bottom: 20px;
+}
+
+#nameForm input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#winner-message {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #f1efef;
+    border-radius: 5px;
+    background-color: #130980;
+    color: #f1efef;
+    font-weight: bold;
+    margin-top: 20px;
+}
