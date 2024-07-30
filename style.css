@@ -3,18 +3,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #0b0b0b;
+    background-color: #0e0d0dd7;
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #f1efef;
+    color: #f3ededec;
 }
 
 .container {
     text-align: center;
-    background-color: rgba(5, 5, 5, 0.959); /* Optional: Add a semi-transparent background to improve text readability */
+    background-color: rgba(16, 20, 136, 0.959); /* Optional: Add a semi-transparent background to improve text readability */
     padding: 20px; /* Optional: Add some padding for better spacing */
     border-radius: 10px; /* Optional: Add rounded corners */
 }
@@ -31,7 +31,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: #dfdbdb;
-    border: 2px solid #c80da9;
+    border: 2px solid #0b010a;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
 }
 
 .cell.winner {
-    background-color: rgb(25, 161, 159);
+    background-color: rgb(179, 222, 21);
 }
 
 button {
@@ -85,3 +85,4 @@ button {
     font-weight: bold;
     margin-top: 20px;
 }
+
